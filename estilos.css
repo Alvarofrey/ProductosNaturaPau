@@ -1,0 +1,65 @@
+.fondobody{
+    background-color: rgb(255, 231, 231);
+    font-size: 17px;
+}
+.mostrarBtn {
+    background-color: rgb(180, 123, 132); /* Color de fondo */
+    color: white; /* Color del texto */
+ 
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar sobre el botón */
+    margin-bottom: 5px; /* Espaciado inferior */
+    text-decoration: none;
+}
+.BtnPedir{
+    background-color: rgb(180, 123, 132);
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/* Estilos opcionales para la imagen */
+.imagen {
+    display: none; /* La imagen está oculta inicialmente */
+    max-width: 100%;
+    height: auto;
+}
+.bordesProductos{
+    background-color: rgba(167, 167, 167, 0.514);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 107px;
+    border-spacing: 5px 5px;
+    border: 5px solid rgba(161, 161, 161, 0.281);
+    text-align: center;
+}
+.tamañoimagen{
+    height: 65px;
+}
+.division{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.titulosproductos{
+    font-size: 20px;
+    font-weight: bold;
+}
+.infofuente{
+    color: rgb(148, 78, 99);
+    font-size: 18px;
+    font-weight: bolder;
+}
+.fuenteprecio{
+    color: rgb(148, 78, 99);
+    font-size: 18px;
+    font-weight: bolder;
+
+}
