@@ -59,7 +59,24 @@
 }
 .fuenteprecio{
     color: rgb(148, 78, 99);
-    font-size: 18px;
+    font-size: 19px;
     font-weight: bolder;
 
+}
+.preciorevista{
+    color: rgb(148, 78, 99);
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: line-through;
+}
+/* Para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .division {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Mostrar productos en una cuadrícula flexible */
+        gap: 20px; /* Espacio entre productos */
+    }
+    .bordesProductos {
+        width: auto; /* Ajustar el ancho automáticamente */
+    }
 }
