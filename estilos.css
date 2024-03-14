@@ -1,3 +1,4 @@
+
 .fondobody{
     background-color: rgb(255, 231, 231);
     font-size: 17px;
@@ -68,15 +69,4 @@
     font-size: 18px;
     font-weight: bolder;
     text-decoration: line-through;
-}
-/* Para dispositivos móviles */
-@media only screen and (max-width: 600px) {
-    .division {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Mostrar productos en una cuadrícula flexible */
-        gap: 20px; /* Espacio entre productos */
-    }
-    .bordesProductos {
-        width: auto; /* Ajustar el ancho automáticamente */
-    }
 }
