@@ -1,10 +1,10 @@
 
 .fondobody{
-    background-color: rgb(255, 231, 231);
+    background-color: rgb(238, 247, 255);
     font-size: 17px;
 }
 .mostrarBtn {
-    background-color: rgb(180, 123, 132); /* Color de fondo */
+    background-color: rgb(77, 134, 156); /* Color de fondo */
     color: white; /* Color del texto */
  
     border: none; /* Sin borde */
@@ -14,7 +14,7 @@
     text-decoration: none;
 }
 .BtnPedir{
-    background-color: rgb(180, 123, 132);
+    background-color: rgb(77, 134, 156);
     color: white;
     border-radius: 4px;
     padding: 5px;
@@ -28,7 +28,7 @@
     height: auto;
 }
 .bordesProductos{
-    background-color: rgba(167, 167, 167, 0.514);
+    background-color: rgb(205, 232, 229);
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -54,18 +54,18 @@
     font-weight: bold;
 }
 .infofuente{
-    color: rgb(148, 78, 99);
+    color: rgb(77, 134, 156);
     font-size: 18px;
     font-weight: bolder;
 }
 .fuenteprecio{
-    color: rgb(148, 78, 99);
+    color: rgb(77, 134, 156);
     font-size: 19px;
     font-weight: bolder;
 
 }
 .preciorevista{
-    color: rgb(148, 78, 99);
+    color: rgb(77, 134, 156);
     font-size: 18px;
     font-weight: bolder;
     text-decoration: line-through;
