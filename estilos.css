@@ -6,9 +6,10 @@
 .mostrarBtn {
     background-color: rgb(77, 134, 156); /* Color de fondo */
     color: white; /* Color del texto */
+    font-size: 15px;
  
     border: none; /* Sin borde */
-    border-radius: 4px; /* Borde redondeado */
+    border-radius: 7px; /* Borde redondeado */
     cursor: pointer; /* Cursor al pasar sobre el botón */
     margin-bottom: 5px; /* Espaciado inferior */
     text-decoration: none;
@@ -35,7 +36,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    width: 110px;
+    width: 122px;
     border-spacing: 5px 5px;
     border: 5px solid rgba(161, 161, 161, 0.281);
     text-align: center;
@@ -69,4 +70,24 @@
     font-size: 18px;
     font-weight: bolder;
     text-decoration: line-through;
+}
+.fuentesuperprecio{
+    color: rgb(77, 134, 156);
+    font-size: 21px;
+    font-weight: bolder;
+
+}
+@keyframes fuentesuperprecio {
+
+    45% {
+        background-color: #2e6e69;
+    }
+}
+.fuentesuperprecio {
+    animation-name: fuentesuperprecio;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 0s;
+
 }
