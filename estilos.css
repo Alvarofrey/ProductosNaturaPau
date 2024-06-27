@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    width: 158px;
+    width: 122px;
     border-spacing: 5px 5px;
     border: 5px solid rgba(161, 161, 161, 0.281);
     text-align: center;
@@ -90,5 +90,6 @@
     animation-timing-function: ease-in;
     animation-duration: 2s;
     animation-delay: 0s;
-width: 190px;
+    font-size: 17px;
+    margin-left: -10px;
 }
