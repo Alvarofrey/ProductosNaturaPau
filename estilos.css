@@ -36,10 +36,11 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    width: 122px;
+    width: 158px;
     border-spacing: 5px 5px;
     border: 5px solid rgba(161, 161, 161, 0.281);
     text-align: center;
+    padding-left: 22px;
 }
 .tamañoimagen{
     height: 65px;
@@ -89,5 +90,5 @@
     animation-timing-function: ease-in;
     animation-duration: 2s;
     animation-delay: 0s;
-
+width: 190px;
 }
